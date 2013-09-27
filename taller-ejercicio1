@@ -1,0 +1,11 @@
+#! /bin/bash
+# Capturando una ruta indicar este es un archivo o directorio
+
+echo -n "Digite el objeto a comprobar: "
+read OBJETO
+echo "ud digito $OBJETO"
+
+FILE=`file $OBJETO`
+
+echo "$FILE"
+

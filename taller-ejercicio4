@@ -1,0 +1,14 @@
+#! /bin/bash
+# par o impar
+
+echo -n "Digite un numero: "
+read NUMERO
+
+MOD=$((NUMERO%2))
+
+if [ $MOD -eq 0 ]; then
+        echo 'el numero '$NUMERO' es par'
+else
+        echo 'el numero '$NUMERO' es impar'
+fi
+

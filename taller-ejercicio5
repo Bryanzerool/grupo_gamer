@@ -1,0 +1,11 @@
+#!/bin/sh
+#copia de seguridad
+
+filename="copia_de_seguridad-$(date +%Y%m%d).tar" 
+username="$(whoami)"
+
+echo "$username"
+
+tar -cf /home/$username/Escritorio/$filename /home/$username/
+7z a /home/$username/Escritorio/$filename.7z -mhe=on /home/$username/Escritorio/$filename 
+rm /home/$username/Escritorio/$filename

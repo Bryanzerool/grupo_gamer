@@ -1,0 +1,7 @@
+#! /bin/bash
+
+echo -n "Digite en cuantos minutos quiere apagar el sistema: "
+read OBJETO 
+echo "Digito $OBJETO min"
+
+sudo shutdown -h $OBJETO
