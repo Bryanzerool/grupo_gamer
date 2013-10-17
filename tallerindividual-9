@@ -1,0 +1,7 @@
+#! /bin/bash
+# RAM y SWAP
+
+echo "acontinuacion se mostrara el uso de RAM y SWAP: "
+
+sudo free -hm
+
