@@ -1,0 +1,17 @@
+echo "Hello World!" 
+
+
+programas=`ls -FC | grep '*' | cut -d'*' -f1`
+
+c=0
+for elemento in $programas; do
+hola=$programas
+hola2=$(pwd)
+
+
+    sudo -s root ln -s $hola /home/
+   c=$(($c+1))  
+   
+   echo "se hicieron $c enlaces"
+done
+echo " en total se hicieron $c enlaces "
