@@ -1,8 +1,0 @@
-#! /bin/bash
-# RAM
-
-echo "acontinuacion se mostrara el proceso que consume mas RAM: "
-
-
-sudo ps aux | awk '{print $2, $4, $11}' | sort -k2r | head -n 2
-
