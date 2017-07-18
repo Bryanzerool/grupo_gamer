@@ -4,7 +4,14 @@
 echo -n "Digite objeto a comprobar: "
 read algo
 echo "ud digito $OBJETO"
-
+rama 1
+rama 1
+rama 1
+rama 1
+rama 1
+rama 1
+rama 1
+rama 1
 FILE=`file $algo`
 
 echo "$FILE"
