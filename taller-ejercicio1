@@ -4,6 +4,16 @@
 echo -n "Digite objeto a comprobar: "
 read algo
 echo "ud digito $OBJETO"
+master  2
+master  2
+master  2
+master  2
+master  2
+master  2
+master  2
+master  2
+master  2
+master  2
 
 FILE=`file $algo`
 
