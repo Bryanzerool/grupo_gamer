@@ -2,9 +2,9 @@
 # Mostrar el tamaño en MB de los elementos de un directorio, asi como la sumatoria total.
 
 echo -n "Digite el directorio a comprobar: "
-read OBJETO 
+read OBJETOsssssssss 
 echo "Digito el directorio $OBJETO"
 
-FILE=`du -ah $OBJETO | sort -n`
+FILE=`du -ah $OBJETOsssssssss | sort -n`
 
 echo "$FILE"
